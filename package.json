@@ -1,0 +1,47 @@
+{
+  "name": "gulp_2017_11_4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp createDir && gulp",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^0.4.6",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^1.2.0",
+    "gulp-filter": "^5.0.1",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-order": "^1.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "bable-loader": "^0.0.1-security",
+    "browser-sync": "^2.18.13",
+    "eventproxy": "^1.0.0",
+    "glob": "^7.1.2",
+    "gulp-filter": "^5.0.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-useref": "^3.1.2",
+    "html-webpack-plugin": "^2.30.1",
+    "lazypipe": "^1.0.1",
+    "socket.io": "^2.0.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
